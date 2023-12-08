@@ -1,0 +1,1273 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.overall{
+
+        background-color: darkkhaki;
+        width: 100%;
+        min-height: 100vh;
+        font-weight: bolder;
+}
+
+.logo{
+
+        width: 170px;
+        height: 50px;
+        background-size: cover;
+        
+}
+
+.mainlogo{
+
+        width: 100%;
+        height: 70px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./bob.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: aliceblue; */
+}
+
+.mainlogo p{
+
+            font-size: 25px;
+            text-shadow:2px 2px 4px black;
+            color: aliceblue;          
+}
+
+.header{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border-top: 2px solid black; */
+        /* border-bottom: 2px solid black; */
+}
+
+.header input:checked ~ .pro{
+
+    background-color:darkseagreen;
+    left: 0;
+}
+
+.header .icon{
+    font-size: 35px;
+    display: none;
+}
+
+#box{
+     
+    display: none;
+}
+.pro{
+
+        width: 100%;
+        height: 70px;
+        background-color:#7D7463;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        gap: 20px;
+        transition: all 2s;
+        
+}
+.pro button{
+
+        font-size: 15px;
+        background-color: #7D7463;
+        color: #fff;
+        padding: 10px 0px;
+        width: 15%;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+}
+
+.header{
+        position: sticky;
+        top: 0;
+        z-index: 5;
+}
+
+.pro button :hover{
+
+            background-color: #066163;
+            padding: 10px 55px;
+            border-radius: 5px;
+            transition: 1s;
+}
+
+
+
+
+                        /* BOX-1 css style  */
+.box1{
+
+        background: 
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./club.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        color: aliceblue;
+        padding: 100px 10px;
+        border-top: 2px solid black;
+        /* background-color: aliceblue; */
+}
+.h2{
+         padding: 15px 0px;   
+         text-align: center;
+        font-family: 'Raleway', sans-serif;
+         box-shadow: 0px 0px 10px blue;    
+}
+.industry p{
+
+        padding:20px 20px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-family: 'Lora', serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Play', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+}
+.img{
+        width: 50px;
+        height: 25px;
+        cursor: zoom-in;
+}
+.featuresdown{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0px;
+        /* background-color: aliceblue; */
+}
+.fea{
+
+        text-align: center;
+        padding: 15px 0px;
+        font-size: 150px;
+        font-weight: bolder;
+        color:transparent;
+        -webkit-text-stroke: 1px #fff;
+        background: url(./6.jpg);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+         
+}
+@keyframes back{
+
+        100%{
+                background-position: 2500px 1500px;
+        }
+}
+
+.laptopimg{
+    
+        width: 650px;
+        height: 600px;
+        cursor: zoom-in;
+}
+
+.industry{
+
+        line-height: 25px;
+}
+
+        
+                                /* Real-div css style  */
+.real-div{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 30px;
+        gap: 30px;
+}
+
+.deck{
+
+        width: 600px;
+        height: 500px;
+        cursor: zoom-in;
+        box-shadow: 0px 0px 10px 1px red;
+}
+
+.real{
+
+        text-align: left;
+        padding: 10px 50px;
+        line-height: 25px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-family: 'Lora', serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Play', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        /* background-color: aliceblue */
+        
+}
+.real h2{
+
+        padding: 15px 0px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        box-shadow: 0px 0px 10px blue;
+}
+                                /* multi-div css style */
+
+.multi-div{
+
+        background: 
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./keyfeatures.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.broadcast{
+    
+        width: 650px;
+        height: 500px;
+        cursor: zoom-in;
+        /* background-color: aliceblue; */
+}
+.icondiv{
+
+        display: flex;
+        justify-content: center;
+        left: auto;
+        align-items: center;
+        /* gap: 20px; */
+        padding: 30px;
+        background-color: black;
+        color: white;
+}
+
+.icondiv section{
+
+        padding: 30px;
+        text-align: center;
+}
+
+.dj{
+        padding-top: 15px;
+}
+.dj h2, p{
+        padding: 20px 0px;
+        text-align: left;
+        line-height: 25px;
+        border-top: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+
+}
+.dj h2{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        box-shadow: 0px 0px 5px black;
+}
+
+.img1{
+        width: 100px;
+        height: 100px;
+        cursor: zoom-in;
+}
+
+                /* plug-div start  */
+.plug-div{
+
+        background: 
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./clube\ image3.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+}
+.mixer{
+
+        width: 650px;
+        height: 500px;
+        cursor: zoom-in;
+}
+
+                /* built-div  css style  */
+.built-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background-color: black;
+        color: white;
+        padding: 50px;
+
+}
+.built{
+
+        box-shadow: 0px 0px 10px red;
+        background-color: rgb(70, 67, 67);
+        color: white;
+        padding: 30px 30px;
+        line-height: 23px;
+}
+
+.timecode{
+
+        width: 600px;
+        height: 500px;
+        cursor: zoom-in;
+}
+
+                        /* powerful-div css style  */
+.powerful-div{
+        background: 
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./film.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+}
+.video{
+        width: 600px;
+        height: 500px;
+        cursor: zoom-in;
+}
+
+                        /* S-E-div both div joined css style  */
+.S-E-div{
+      
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background-color: rgb(112, 112, 243);
+        color: white;
+        padding: 30px;
+}
+
+.vis, .skin{
+        width: 650px;
+        height: 500px;
+        cursor: zoom-in;
+        box-shadow: 0px 0px 10px black;
+}
+
+                /* karaoke-div css style  */
+.karaoke-div{
+
+        background: 
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./mike.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        color: aliceblue;
+        line-height: 20px;
+        text-align: center;
+}
+.karaoke-div .mike li{
+
+        text-align: left;
+}
+.li{
+       margin-left: 40%;
+}
+
+                /* commom div css style  */
+
+.c-div{ 
+        
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: rgb(223, 214, 214);
+        /* color: white; */
+        font-weight: bold;
+        padding: 50px;
+        line-height: 25px;  
+        font-family: 'Lora', serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;    
+}
+
+.c-img{
+        /* background-color: antiquewhite; */
+        width: 700px;
+        height: 400px;
+        cursor: zoom-in;                /*NEW ONE*/ 
+        box-shadow: 0px 0px 10px;
+        padding-top: 20px;
+}
+
+.c-section h2{
+        padding: 15px 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        font-family: 'Raleway', sans-serif;
+        box-shadow: 0px 0px 10px blue;
+}
+
+.c-li{
+        padding: 15px;
+}
+.libary{
+
+        width: 600px;
+        height: 500px;
+        box-shadow: 0px 0px 10px;
+}
+
+.catalog{
+
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        color: aliceblue;
+}
+
+                        /* page last div css style  */
+
+.last{
+       text-align: center;
+       padding: 70px 10px;
+       background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./black-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+        text-shadow: 0px 0px 5px #066163, 0px 0px 5px #FF731D;
+       
+}
+
+button{
+        width: 12%;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0px 10px;
+}
+
+.last h2{
+
+        padding: 40px 0px;
+
+}
+
+.key{
+        width: 500px;
+        height: 400px;
+        box-shadow: 0px 0px 10px;
+        /* background-color:#fff; */
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./black-1.jpg);
+        background-position: fixed;
+        background-size:contain;
+        box-shadow: 20px 30px 10px black;
+}
+
+                        /* footer css style  */
+footer{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./black-abstract-m8kr2hfvrwlt8j5g.jpg);
+        background-size: cover;
+        color: #fff;
+}
+.footerContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        justify-content: space-between;
+        gap: 20px;
+}
+.footerContainer section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.footerContainer section h4 {
+        font-size: 23px;
+}
+
+                        /* footer la iruka icon div css style  */
+.icon-a{
+
+        padding: 5px;
+}
+section h4{
+
+        padding: 10px 0px;
+        font-size: 17px;
+        /* width: 320px; */
+        /* background-color: aliceblue; */
+        
+}
+section p{
+
+        padding: 5px 0px;
+        /* font-weight: bolder; */
+}
+.lastbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+}
+.lastbtn :hover{
+
+        background-color:peru;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 1s;
+}       
+        /* project - first page end  */
+
+        /* sub-pages-css-start  */
+
+                                /* Connect HTML Page */
+        a{
+                color: #fff;
+                border: none;
+                text-decoration: none;
+        }
+        .con{
+
+                padding: 20px;
+                /* background-color: white; */
+
+        }
+        .sign-up{
+
+                width: 50%;
+                min-height:450px ;
+                box-shadow: 0px 0px 10px;
+                background-color:#96BB7C;
+                margin: auto;
+                margin-top: 50px;
+                padding: 30px;
+                text-align: center;
+        }
+        .sign-up h1, h3{
+
+                 padding: 20px 0px;
+        }
+        .con-sub-div{
+
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 15px;
+
+        }
+        .con-sign, .con-input{
+       
+                width: 40%;
+        }
+
+        i{
+                padding-right: 10px;
+                font-size: 20px;
+        }
+        .con-bt{
+
+                text-align: left;
+                width: 100%;
+                margin: 10px 0px;
+                font-size: 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+        }
+        input{
+                text-align: left;
+                width: 100%;
+                font-size: 15px;
+                padding: 15px 80px 10px 10px;
+                border: none;
+                border-radius: 5px;
+        }
+        .c{
+                margin-bottom: 20px;
+        }
+        .d{
+                text-align: center;
+                /* background-color: lightskyblue; */
+                padding: 10px 50px 10px 40px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+        }
+
+
+                                /* Index HTML Page  */
+        .index-fea{
+       
+                color:transparent;
+                /* -webkit-text-stroke: 1px #fff; */
+                /* background: url(./french.png); */
+                /* -webkit-background-clip: text; */
+                background-position: 0 0;
+                animation: back-1 20s linear infinite;
+         
+        }
+        @keyframes back-1{
+
+                100%{
+                        background-position: 2000px 0px;
+                }
+        }
+
+                                /* Dowload HTML page  */
+
+        .dow{
+                background: 
+                linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./club\ image\ background.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                width: 100%;
+                height: 100%;
+                padding: 20px;
+                color: white;
+                text-align: center;
+                /* background-color: white; */
+        }
+        .dow-div{
+
+                text-align: center;
+                padding: 100px 0px;
+        }
+        .dow-div h1{
+
+                font-size: 55px;
+                letter-spacing: 3px;
+        }
+        .dow-div h4{
+
+                font-size: 23px;
+                letter-spacing: 2px;
+        }
+        .dow-btn{
+
+               text-align: center;
+               padding: 30px 0px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               /* background-color:black; */
+
+        }
+        .dow-z-index{
+
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                position: absolute;
+                background-color: #C4DFAA;
+                width:700px;
+                height: 150px;
+                text-align: center;
+                box-shadow: 10px 10px 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+        }
+        .dow-z-index button{
+
+                width: 25%;
+                border: none;
+                background-color: #73A9AD;
+        }
+        .dow-z-index :hover{
+
+                background-color:peru;
+                cursor: pointer;
+                transition: 1s;
+        }
+        .dow-footer{
+
+                padding: 90px 40px 50px 60px;
+                background-color: #C4DFAA;
+                text-align: center;
+                /* background-color: #7d2ae8; */
+        }
+        .dow-footer p{
+
+                padding: 30px 0px;
+                /* background-color:seashell ; */
+        }
+
+
+                                /* Support HTML Page*/
+
+        .sup{
+                background:none;
+                background-color:#B99470;
+                /* border-top: 2px solid black; */
+                cursor: pointer;
+        }
+        .sup h1{
+
+                text-align: center;
+                margin-bottom: 15px;
+                cursor: pointer;
+        }
+        .sup-box{
+
+                margin: auto;
+                text-align: left;
+                margin-left: 25%;
+        }
+        .sup-input{
+
+                width: 50%;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+        }
+        .sup-ser{
+                
+                padding: 11px 10px 11px 10px;
+                background-color: white;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+        }
+
+        .sup-overall-div{
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 30px;
+                background-color: #A2A378;
+        }
+
+        .sup-left-div{
+
+                width: 20%;
+                height: 700px;
+                padding: 20px 30px 20px 10px;
+                margin-top: 20px;
+                /* border: 1px solid black; */
+                box-shadow: 0px 0px 10px;
+                cursor: pointer;
+        }
+        .sup-left-div h2{
+
+                padding: 20px;
+        }
+
+        .sup-btn{
+
+                text-align: center;
+                width: 100%;
+                margin-bottom: 20px;
+                cursor: pointer;
+                
+        }
+        .sup-2{
+                width: 100%;
+                margin-bottom: 30px;
+                cursor: pointer;
+        }
+        .yt{
+                font-size: 90px;
+                padding-top: 10px;
+                cursor: pointer;
+        }
+
+
+                                /* Buy Html Page */
+
+        .buy-overall{
+
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        /* gap:20px; */
+                        margin: 30px 0px;
+                        /* position: fixed; */
+                        left:32%;
+
+        }
+        .buy-div{
+
+                        width: 250px;
+                        background-color: #A2A378;
+                        height: 350px;
+                        padding: 20px; 
+                        /* text-align: center; */
+                        /* position: relative; */
+                        /* z-index:998; */
+        }
+        .buy-sub{
+
+                        width: 200px;
+                        height: 245px;
+                        /* background-color: #fff; */
+                        padding: 10px;
+                        text-align: center;
+        }
+        .buy-sub p{
+
+                        /* background-color: #066163; */
+                        text-align: center;
+        }
+        .buy-btn-1{
+
+                        width: 50%;
+        }
+        .buy-1{
+
+                        font-size:30px;
+        }
+        .buy-top span{
+                        margin-left: 10px;
+        }
+        .buy-top p{
+                        text-align: center;
+        }
+        sub{
+                        font-size: 15px;
+        }
+        .div-buy{
+
+                        width: 100%;
+                        background-color: #066163;
+                        height: 400px;
+                        /* position: fixed; */
+                        display: flex;
+                        justify-content: space-evenly ;
+                        align-items: center;
+                        padding: 40px;
+        }
+        .buy-img{
+
+                        width: 100px;
+                        height: 100px;
+                        text-align: center;
+                        /* background-color: yellowgreen; */
+        }
+        .div .acces p{
+
+                        text-align: center;
+        }
+        .acces{
+                        box-shadow: 0px 0px 10px;
+                        padding: 20px;
+        }
+
+
+
+                        /* scrollbar style */
+
+
+                                        /* width */
+        ::-webkit-scrollbar {
+
+                width: 6px;
+        }
+      
+                                        /* Track */
+        ::-webkit-scrollbar-track {
+
+                 background:#F5F5F5; 
+        }
+       
+                                        /* Handle */
+        ::-webkit-scrollbar-thumb {
+
+                background:#FF731D; 
+
+        }
+
+
+                        /* for Mobile view  */
+
+
+@media screen and (min-width:250px) and (max-width:425px) {
+
+        .footerContainer{
+
+                grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+               
+        }
+        .footerContainer section {
+                align-items: unset;
+        }
+
+        .mainlogo{
+                gap:20px;
+        }
+
+        .mainlogo p{
+
+                font-size: 20px;
+        }
+        .fea{
+
+                font-size: 50px;
+
+        }
+
+        .industry h2, .real h2, .dj h2, .mike h2, .c-section h2{
+
+                font-size: 15px;
+        }
+
+        .logo{
+                width: 130px;
+                height: 50px;
+        }
+
+        .pro button{
+
+            padding: 10px;
+            width: 35%;
+            background-color:darkseagreen;
+        }
+        .laptopimg, .deck, .broadcast, .mixer, .timecode, .video, .vis, .skin, .key, .c-img, .libary{
+
+                width: 280px;
+                height: 300px;
+        }
+        footer{
+                padding: 20px 50px;
+        }
+        section h4{
+                        text-align: left;
+        }
+       
+        footer, .con-sub-div {
+
+                flex-direction: column;
+        }  
+        .sign-up{
+
+                padding: 10px;
+                width: 90%;
+        }
+        i{
+               
+                font-size: 20px;
+                padding: 4px;
+        }
+        input{
+                text-align: left;
+                font-size: 15px;
+                padding: 10px 10px 10px 10px;
+
+        }
+        .con-bt{
+        
+                text-align: left;
+                font-size: 12px;
+                padding: 10px;
+        }
+        .d{
+                text-align: center;
+                padding: 10px 20px 10px 20px;
+                border: none;
+                border-radius: 5px;
+        }
+        .dow-btn{
+
+                flex-direction: column;
+        }
+        .dow-z-index{
+
+                width: 300px;
+        }
+        .dow-div h1{
+
+                font-size: 30px;
+                letter-spacing: 3px;
+                padding-bottom: 10px;
+        }
+        .dow-div h4{
+        
+                font-size: 14px;
+                letter-spacing: 2px;
+        }
+        .sup-overall-div{
+
+                flex-direction: column;
+        }
+        .sup-left-div{
+
+                width: 80%;
+                padding: 30px;
+        }
+        .sup-ser{
+                
+                padding: 7px 10px 10px 10px;
+        }
+        .buy-overall{
+
+                flex-direction: column;
+                gap:20px
+                
+        }
+        .div-buy{
+
+                flex-direction: column;
+                padding: 20px;
+                text-align: center;
+                gap: 20px;
+                height: 100%;
+        }
+        
+        
+}
+
+
+                        /* for TAB view  */
+
+
+@media screen and (min-width:425px) and (max-width:1020px) {
+
+        .mainlogo{
+
+                gap: 30px;
+            }
+        .logo{
+                width: 125px;
+                height: 50px;
+        }
+        .fea{
+                font-size: 70px;
+        }
+        .mainlogo p{
+
+                font-size: 20px;
+        }
+        .pro button{
+
+                padding: 10px;
+                width: 25%;
+                background-color:darkseagreen;
+        }
+        .laptopimg,.c-img, .libary, .key{
+
+            width: 410px;
+            height: 450px;
+        }   
+
+        .deck{
+
+                width: 390px;
+                height: 450px;
+        }
+        .broadcast, .mixer, .video, .timecode, .vis, .skin{
+    
+                width: 390px;
+                height: 400px;
+        }
+        footer{
+
+                gap: 20px;
+        }
+        section h4{
+
+                text-align: center;
+        }
+        .dow-btn{
+
+                flex-direction: column;
+
+        }
+        .dow-z-index{
+
+                width: 390px;
+        }
+        .con-sub-div {
+
+                flex-direction: column;
+        }  
+        .sign-up{
+
+                padding: 10px;
+                width: 90%;
+        }
+        i{       
+                font-size: 20px;
+                padding: 6px;
+        }
+        input{
+
+                text-align: left;
+                font-size: 15px;
+                padding: 15px 10px 15px 10px;
+
+        }
+        .con-bt{
+
+                text-align: left;
+                font-size: 12px;
+                padding: 10px;
+        }
+        .dow-div h1{
+
+                font-size: 38px;
+                letter-spacing: 3px;
+                padding-bottom: 10px;
+        }
+        .dow-div h4{
+        
+                font-size: 22px;
+                letter-spacing: 2px;
+        }
+        .sup-overall-div{
+
+                flex-direction: column;
+        }
+        .sup-left-div{
+
+                width: 80%;
+                padding: 30px;
+        }
+        .sup-ser{
+                
+                padding: 12px 10px 15px 10px;
+        }
+        .buy-overall{
+
+                flex-direction: column;
+                gap:20px
+                
+        }
+        .div-buy{
+
+                flex-direction: column;
+                padding: 20px;
+                text-align: center;
+                gap: 20px;
+                height: 100%;
+        }
+    
+}
+
+                        /* for Respons header */
+
+
+@media screen and (min-width:100px) and (max-width:1020px){
+
+        .pro{
+
+            position: absolute;
+            flex-direction: column;
+            top: 107px;
+            left: -100%;
+            /* background-color:darkslategray; */
+            width: 100%;
+            text-align:center;
+            height: 88vh;
+            padding: 30 0px 0px 0px;
+            gap: 10px;
+            z-index: 15;
+            transition: all 3s;
+            
+        }
+
+        .header{
+
+                position: static;
+                top: 0;
+        }
+    
+        .header .icon{
+    
+            display: inline;
+        }
+
+        .featuresdown{
+
+            flex-direction: column;
+        }
+
+        .fea{
+
+            padding: 10px;
+        }       
+
+        .flag{
+
+            text-align: center;
+        }
+
+        .res, .c-div{
+
+                flex-direction: column;
+                gap: 40px;
+                padding: 30px;
+        }
+        
+        .li{
+                margin-left: 0%;
+        }
+         
+        .lastbtn{
+
+                flex-direction: column;
+                gap: 10px;
+        }
+        button{
+                width: 40%;
+        
+        }
+}
